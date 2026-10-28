@@ -16,8 +16,8 @@ bot = telebot.TeleBot(TOKEN)
 # 2. نظام بيانات اللعبة
 # ==========================================
 game = {
-    "active": False,
-    "group_id": None,
+    "active":False,
+    "group_id":None,
     "creator_id": None,  # 🔒 معرف الشخص الذي بدأ اللعبة حصراً
     "phase": "waiting",  # waiting, night, day
     "round_id": 0,       # رقم الجولة لتتبع الليل والنهار بدقة

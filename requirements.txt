@@ -1,5 +1,1 @@
-import telebot
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-import random
-import time
-import threading
+pytelegrambotapi
